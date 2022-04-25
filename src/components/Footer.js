@@ -146,13 +146,13 @@ const Footer = () => {
       >
         <Facebook />
       </a>
-      <a href="https://www.instagram.com/code.bucks/" target='_blank' 
+      <a href="https://www.instagram.com/" target='_blank' 
       rel="noopener noreferrer"
       aria-label='instagram'
       >
         <Instagram />
       </a>
-      <a href="https://twitter.com/code_bucks" target='_blank' 
+      <a href="https://twitter.com/" target='_blank' 
       rel="noopener noreferrer"
       aria-label='twitter'
       >
