@@ -155,13 +155,15 @@ const About = () => {
           <Carousel /> </Suspense> </Box>
         <Box> 
         <Title>
-        Elrond Moart's Club.
+        Elrond Moart’s
         </Title>
         <SubText>
-        The Elrond Moart's Club is a private collection of NFTs—unique digital collectibles. The Elrond Moart's are stored as tokens on the Ethereum blockchain and hosted on Vital's Network.
+        Elrond Moart’s is an 6209 collection NFT - unique digital collectibles. 
+The Elrond Moart’s are stored as tokens on the Elrond Network blockchain in partnership with VitalNetworkDAO
         </SubText>
         <SubTextLight>
-        With more than 200+ hand drawn traits, each NFT is unique and comes with a membership to an exclusive group of successful investors. Join an ambitious ever-growing community with multiple benefits and utilities.
+        Elrond Moart's is the result of dedicated friends who have created a project, which will eventually be active on the following three topics:
+        Charitable donations, NFT physical versions and NFT staking.
         </SubTextLight>
         <ButtonContainer>
         <ThemeProvider theme={light}>

@@ -5,8 +5,7 @@ import Button from './Button';
 
 const Title = styled.h2`
   font-size: ${(props) => props.theme.fontxxl};
-  text-transform: capitalize;
-  width: 80%;
+  width: 105%;
   color: ${(props) => props.theme.text};
   align-self: flex-start;
 
@@ -15,13 +14,13 @@ const Title = styled.h2`
     font-family: "Akaya Telivigala", cursive;
   }
   .text-1{
-      color: blue;
+      color: #FF1053;
   }
   .text-2{
       color: orange;
   }
   .text-3{
-      color: red;
+      color: #23CE6B;
   }
 
   @media (max-width: 70em) {
@@ -77,7 +76,7 @@ const TypeWriterText = () => {
   return (
     <>
         <Title>
-      Discover a new era of cool
+      A 3D NFT collection on Elrond network with 
       <Typewriter
         options={{
           autoStart: true,
@@ -85,13 +84,13 @@ const TypeWriterText = () => {
         }}
         onInit={(typewriter) => {
           typewriter
-            .typeString(`<span class="text-1">NFTs.</span>`)
+            .typeString(`<span class="text-1">Charity donations.</span>`)
             .pauseFor(2000)
             .deleteAll()
-            .typeString(`<span class="text-2">Collectible Items.</span>`)
+            .typeString(`<span class="text-2">Passive incomes.</span>`)
             .pauseFor(2000)
             .deleteAll()
-            .typeString(`<span class="text-3">Ape Arts!</span>`)
+            .typeString(`<span class="text-3">NFT Physical versions !</span>`)
             .pauseFor(2000)
             .deleteAll()
             .start();
@@ -99,7 +98,7 @@ const TypeWriterText = () => {
       />
       
     </Title>
-    <SubTitle>Discover our work below.</SubTitle>
+    <SubTitle>Discover our collection below.</SubTitle>
     <ButtonContainer>
     <Button text="Explore" link="#home" />
     </ButtonContainer>
