@@ -78,7 +78,7 @@ const TypeWriterText = () => {
   return (
     <>
         <Title>
-      A 3D NFT collection on Elrond network with 
+      A 3D NFT collection on Elrond Network with 
       <Typewriter
         options={{
           autoStart: true,
