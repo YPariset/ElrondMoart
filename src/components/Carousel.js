@@ -10,16 +10,16 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation, Autoplay } from "swiper";
 
-import img1 from '../assets/Nfts/collection1/332.png';
-import img2 from '../assets/Nfts/collection1/387.png';
-import img3 from '../assets/Nfts/collection1/549.png'
-import img4 from '../assets/Nfts/collection1/877.png';
-import img5 from '../assets/Nfts/collection1/853.png';
-import img6 from '../assets/Nfts/collection1/699.png';
-import img7 from '../assets/Nfts/presentation-moarts.jpeg';
-import img8 from '../assets/Nfts/presentation-moarts.jpeg';
-import img9 from '../assets/Nfts/presentation-moarts.jpeg';
-import img10 from '../assets/Nfts/presentation-moarts.jpeg';
+import img1 from '../assets/Nfts/collection1/11.JPG';
+import img2 from '../assets/Nfts/collection1/6.png';
+import img3 from '../assets/Nfts/collection1/20.png'
+import img4 from '../assets/Nfts/collection1/1.png';
+import img5 from '../assets/Nfts/collection1/14.png'
+import img6 from '../assets/Nfts/collection1/853.png';
+import img7 from '../assets/Nfts/collection1/699.png';
+import img8 from '../assets/Nfts/collection1/877.png';
+import img9 from '../assets/Nfts/collection1/310.png';
+import img10 from '../assets/Nfts/collection1/387.png';
 
 import Arrow from '../assets/Arrow.svg';
 

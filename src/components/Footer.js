@@ -3,7 +3,6 @@ import styled from 'styled-components'
 // import Banner from './Banner'
 import Logo from './Logo'
 
-import Facebook from '../Icons/Facebook'
 import Instagram from '../Icons/Instagram'
 import Twitter from '../Icons/Twitter'
 import LinkedIn from '../Icons/LinkedIn'

@@ -185,12 +185,12 @@ const scrollTo = (id) => {
           <MenuItem onClick={() => scrollTo('faq')}  >Faq</MenuItem>
           <MenuItem>
             <div className="mobile">
-            <Button text="Collect items" link="https://google.com" />
+            <Button text="Collect items" link="https://vitalnetwork.io/launchpad" />
             </div>
           </MenuItem>
         </Menu>
           <div className="desktop">
-          <Button text="Collect items" link="https://google.com" />
+          <Button text="Collect items" link="https://vitalnetwork.io/launchpad" />
           </div>
 
       </NavBar>
