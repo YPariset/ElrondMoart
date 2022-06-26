@@ -86,7 +86,7 @@ const SubText = styled.p`
   font-size: ${(props) => props.theme.fontlg};
   color: ${(props) => props.theme.body};
   align-self: flex-start;
-  width: 80%;
+  width: 82%;
 margin: 1rem auto;
 font-weight:400;
 @media (max-width: 64em){
@@ -155,15 +155,17 @@ const About = () => {
           <Carousel /> </Suspense> </Box>
         <Box> 
         <Title>
-        Elrond Moart’s
+        Elrond Moart’s 🗿
         </Title>
         <SubText>
-        Elrond Moart’s is an 6209 collection NFT - unique digital collectibles. 
-The Elrond Moart’s are stored as tokens on the Elrond Network blockchain in partnership with VitalNetworkDAO
+        Elrond Moart’s project, is a unique and randomly generated 3D - 4K NFT project of 6209 NFT that aim to have a physical and positive impact in our world, trough the sales of NFT collections.
+        <br></br><br></br>
+        Our project is focused on several aspects ⬇️   
         </SubText>
         <SubTextLight>
-        Elrond Moart's is the result of dedicated friends who have created a project, which will eventually be active on the following three topics:
-        Charitable donations, NFT physical versions and NFT staking.
+        - Charity donations 🙏<br></br>
+        - NFT staking pool 💰<br></br>
+        - Moart's physical version 🗿<br></br> 
         </SubTextLight>
         <ButtonContainer>
         <ThemeProvider theme={light}>
