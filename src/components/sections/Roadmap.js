@@ -15,7 +15,6 @@ const Section = styled.section`
 `;
 const Title = styled.h1`
   font-size: ${(props) => props.theme.fontxxl};
-  text-transform: capitalize;
   color: ${(props) => props.theme.text};
   display: flex;
   justify-content: center;
@@ -147,7 +146,6 @@ const SubTitle = styled.span`
 const Text = styled.span`
   display: block;
   font-size: ${(props) => props.theme.fontsm};
-  text-transform: capitalize;
   color: ${(props) => props.theme.text};
 
   font-weight: 400;
@@ -157,13 +155,16 @@ const Text = styled.span`
   }
 `;
 
-const RoadMapItem = ({ title, subtext, addToRef }) => {
+const RoadMapItem = ({ title, subtext, subtext1, subtext2, subtext3, addToRef }) => {
   return (
     <Item ref={addToRef}>
       <ItemContainer>
         <Box>
           <SubTitle>{title} </SubTitle>
           <Text>{subtext}</Text>
+          <Text>{subtext1}</Text>
+          <Text>{subtext2}</Text>
+          <Text>{subtext3}</Text>
         </Box>
       </ItemContainer>
     </Item>
@@ -220,28 +221,31 @@ const Roadmap = () => {
           <Item>&nbsp;</Item>
           <RoadMapItem
             addToRef={addToRefs}
-            title="Q2 - Network's & Moar't Drop"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Networks and Moart's Drop"
+            subtext="- Discord launch"
+            subtext1="- Website launch"
+            subtext2="- 1st drop 887 Moart's"
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Great Benefits"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Moart's Expansion"
+            subtext="- Multiple Moart's drops with exclusive themes for each drop"
+            subtext1="- 15% of sells collections distributed to charitable association chosen by the community"
+            subtext2="- Royalties in hands of community"
+
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="Early Access"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="Building with VitalNetwork"
+            subtext="- Moart's club shop 'Secret'
+            - Moart's NFT staking :$vital
+            - Build with VitalNetwork
+            - Listing non profit associations on VitalDrop"
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="New Merch"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
-          />
-          <RoadMapItem
-            addToRef={addToRefs}
-            title="Holders Ranking"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            title="More to come"
+            subtext="Loading..."
           />
         </Items>
       </Container>

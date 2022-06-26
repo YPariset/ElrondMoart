@@ -22,7 +22,6 @@ overflow: hidden;
 `
 const Title = styled.h1`
   font-size: ${(props) => props.theme.fontxxl};
-  text-transform: capitalize;
   color: ${(props) => props.theme.text};
   display: flex;
   justify-content: center;
@@ -113,7 +112,7 @@ font-size: ${props => props.theme.fontmd};
 display: flex;
 align-items: center;
 justify-content: center;
-text-transform: capitalize;
+
 color: ${props => `rgba(${props.theme.textRgba},0.9)`};
 font-weight:400;
 `

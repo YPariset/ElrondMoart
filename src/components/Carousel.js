@@ -2,13 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/effect-cards";
+
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 
 
-import { Pagination, Navigation, Autoplay, EffectCards } from "swiper";
+import { Pagination, Navigation, Autoplay } from "swiper";
 
 import img1 from '../assets/Nfts/team-member-julian.png';
 import img2 from '../assets/Nfts/team-member-ginsburg.png';
@@ -52,13 +52,10 @@ height: 70vh;
 
 .swiper-slide{
     background-color: ${props => props.theme.carouselColor};
-
     border-radius: 20px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     img{
         display: block;
         width: 90%;
@@ -73,7 +70,7 @@ height: 70vh;
     right: 0;
     width: 4rem;
     top: 85%;
-    
+    margin-top: 1em;
     background-image: url(${Arrow});
     background-position: center;
     background-size: cover;
@@ -96,6 +93,7 @@ height: 70vh;
     left: 0;
     top: 85%;
     width: 4rem;
+    margin-top: 1em;
     transform: rotate(180deg);
     background-image: url(${Arrow});
     background-position: center;
@@ -132,9 +130,8 @@ const Carousel = () => {
         scrollbar={{
             draggable:true
         }}
-        modules={[EffectCards,Pagination, Navigation, Autoplay]}
+        modules={[Pagination, Navigation, Autoplay]}
         navigation={true}
-        effect={"cards"}
         grabCursor={true}
         
         className="mySwiper"
