@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import img1 from '../assets/Nfts/bighead.svg';
-import img2 from '../assets/Nfts/bighead-1.svg';
-import img3 from '../assets/Nfts/bighead-2.svg';
-import img4 from '../assets/Nfts/bighead-3.svg';
-import img5 from '../assets/Nfts/bighead-4.svg';
-import img6 from '../assets/Nfts/bighead-5.svg';
+import img1 from '../assets/Nfts/collection1/nobg/103.png';
+import img2 from '../assets/Nfts/collection1/nobg/101.png';
+import img3 from '../assets/Nfts/collection1/nobg/102.png';
+import img4 from '../assets/Nfts/collection1/nobg/194.png';
+import img5 from '../assets/Nfts/collection1/nobg/105.png';
+import img6 from '../assets/Nfts/collection1/nobg/106.png';
 
 const Section = styled.section`
 width: 100vw;

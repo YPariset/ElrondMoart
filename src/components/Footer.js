@@ -140,27 +140,21 @@ const Footer = () => {
     <Left> 
     <Logo />
     <IconList>
-      <a href="http://facebook.com" target='_blank' 
-      rel="noopener noreferrer"
-      aria-label='facebook'
-      >
-        <Facebook />
-      </a>
-      <a href="https://www.instagram.com/" target='_blank' 
+      <a href="https://www.instagram.com/elrondmoarts" target='_blank' 
       rel="noopener noreferrer"
       aria-label='instagram'
       >
         <Instagram />
       </a>
-      <a href="https://twitter.com/" target='_blank' 
+      <a href="https://twitter.com/ElrondMoarts" target='_blank' 
       rel="noopener noreferrer"
       aria-label='twitter'
       >
         <Twitter />
       </a>
-      <a href="http://linkedin.com" target='_blank' 
+      <a href="https://discord.gg/eqYvkqe3Me" target='_blank' 
       rel="noopener noreferrer"
-      aria-label='linkedin'
+      aria-label='discord'
       >
         <LinkedIn />
       </a>

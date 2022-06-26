@@ -99,17 +99,15 @@ useLayoutEffect(() => {
 
 <Box>
   <Accordion ScrollTrigger={ScrollTrigger} title="WHAT IS THE SUPPLY ?" >
-  Elrond Moart's is a collection of 6209 NFT that will be devided in several drop 
+  Elrond Moart's is a collection of 6209 NFT that will be devided in several drop. A total of 7 drops of 887 Moart's, 887 is related to the number of Moai on the Rapa nui island.
   </Accordion>
   <Accordion ScrollTrigger={ScrollTrigger} title="WHO ARE MOART'S TEAM ?" >
   Moart’s team is a group of close friends who know each of them since long time now. They are 6 in the team, including the 2 founders, 2 designer, 1 dev, and the VitalNetwork founder.
   </Accordion>
-  <Accordion ScrollTrigger={ScrollTrigger} title="HOW MANY DROP ?" >
-  A total of 7 drops of 887 Moart's, 887 is related to the number of Moai on the Rapa nui island  </Accordion>
 </Box>
 <Box>
 <Accordion ScrollTrigger={ScrollTrigger} title="WHAT IS THE 1ST DROP PRICE ?" >
-First drop price is 0.6 egld for the Private Sale and 0.8 Egld for the Public Sale  </Accordion>
+First drop price is 0.6 egld for the Private Sale and 0.8 Egld for the Public Sale.  </Accordion>
   <Accordion ScrollTrigger={ScrollTrigger} title="WHAT ARE MOART'S USECASE?
 " >
 Moart’s will bring several benefits, you will be able to stake them to earn passive Income, you’ll be able to buy a physical reproduction of your NFT. And more than that your NFT will be the proof that you participated in a charitable cause.

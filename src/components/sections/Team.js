@@ -1,12 +1,11 @@
 import React, { lazy, Suspense } from 'react'
 import styled from 'styled-components';
 
-import img1 from '../../assets/Nfts/team-member-julian.png';
-import img2 from '../../assets/Nfts/team-member-karl.png';
-import img3 from '../../assets/Nfts/team-member-koba.png';
-import img4 from '../../assets/Nfts/team-member-sicko.png';
-import img5 from '../../assets/Nfts/team-member-ginsburg.png';
-import img6 from '../../assets/Nfts/presentation-moarts.jpeg';
+import img1 from '../../assets/Nfts/collection1/YK-PP.png';
+import img2 from '../../assets/Nfts/collection1/STEEL-PP.png';
+import img3 from '../../assets/Nfts/collection1/549.png';
+import img4 from '../../assets/Nfts/collection1/PARIZOO-PP.jpg';
+import img5 from '../../assets/Nfts/collection1/853.png';
 import Loading from '../Loading';
 // import ConfettiComponent from '../Confetti';
 
@@ -138,12 +137,11 @@ const Team = () => {
     <ConfettiComponent  /> </Suspense>
       <Title>Team</Title>
       <Container>
-        <MemberComponent img={img1}  name="SKYBLAZE" position="founder" />
-        <MemberComponent img={img2}  name="MEGNUM" position="Co-Founder" />
-        <MemberComponent img={img3}  name="MONKEY KING" position="Director" />
-        <MemberComponent img={img4}  name="BLACK PANTHER" position="manager" />
-        <MemberComponent img={img5}  name="DEATHSTROKE" position="artist" />
-        <MemberComponent img={img6}  name="LAZY KONG" position="social media manager" />
+        <MemberComponent img={img1}  name="Yk The 🗿" position="Founder" />
+        <MemberComponent img={img2}  name="Steel the 🗿" position="Co-Founder" />
+        <MemberComponent img={img3}  name="THE_Mti 🗿 " position="Designer" />
+        <MemberComponent img={img4}  name="Parizoo 🗿" position="Developer" />
+        <MemberComponent img={img5}  name="Babayaga 🗿" position="Partner" />
 
         
 

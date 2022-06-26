@@ -237,10 +237,10 @@ const Roadmap = () => {
           <RoadMapItem
             addToRef={addToRefs}
             title="Building with VitalNetwork"
-            subtext="- Moart's club shop 'Secret'
-            - Moart's NFT staking :$vital
-            - Build with VitalNetwork
-            - Listing non profit associations on VitalDrop"
+            subtext="- Moart's club shop 'Secret'"
+            subtext1="- Moart's NFT staking :$vital"
+            subtext2="- Build with VitalNetwork"
+            subtext3="- Listing non profit associations on VitalDrop"
           />
           <RoadMapItem
             addToRef={addToRefs}

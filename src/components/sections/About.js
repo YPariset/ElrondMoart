@@ -167,7 +167,7 @@ The Elrond Moart’s are stored as tokens on the Elrond Network blockchain in pa
         </SubTextLight>
         <ButtonContainer>
         <ThemeProvider theme={light}>
-        <Button text="JOIN OUR DISCORD" link="#" />
+        <Button text="JOIN OUR DISCORD" link="https://discord.gg/eqYvkqe3Me" />
         </ThemeProvider>
         </ButtonContainer>
          </Box>

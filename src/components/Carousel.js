@@ -10,12 +10,12 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation, Autoplay } from "swiper";
 
-import img1 from '../assets/Nfts/team-member-julian.png';
-import img2 from '../assets/Nfts/team-member-ginsburg.png';
-import img3 from '../assets/Nfts/team-member-karl.png';
-import img4 from '../assets/Nfts/team-member-koba.png';
-import img5 from '../assets/Nfts/team-member-sicko.png';
-import img6 from '../assets/Nfts/presentation-moarts.jpeg';
+import img1 from '../assets/Nfts/collection1/332.png';
+import img2 from '../assets/Nfts/collection1/387.png';
+import img3 from '../assets/Nfts/collection1/549.png'
+import img4 from '../assets/Nfts/collection1/877.png';
+import img5 from '../assets/Nfts/collection1/853.png';
+import img6 from '../assets/Nfts/collection1/699.png';
 import img7 from '../assets/Nfts/presentation-moarts.jpeg';
 import img8 from '../assets/Nfts/presentation-moarts.jpeg';
 import img9 from '../assets/Nfts/presentation-moarts.jpeg';

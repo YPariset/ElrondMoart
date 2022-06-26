@@ -1,19 +1,14 @@
 import React, { useRef } from 'react'
 import styled, { keyframes } from 'styled-components'
 
-import img1 from '../../assets/Nfts/team-member-ginsburg.png';
-import img2 from '../../assets/Nfts/team-member-julian.png';
-import img3 from '../../assets/Nfts/team-member-karl.png';
-import img4 from '../../assets/Nfts/team-member-koba.png';
-import img5 from '../../assets/Nfts/team-member-sicko.png';
-import img6 from '../../assets/Nfts/presentation-moarts.jpeg';
-import img7 from '../../assets/Nfts/presentation-moarts.jpeg';
-import img8 from '../../assets/Nfts/presentation-moarts.jpeg';
-import img9 from '../../assets/Nfts/presentation-moarts.jpeg';
-import img10 from '../../assets/Nfts/presentation-moarts.jpeg';
+import img1 from '../../assets/Nfts/collection1/332.png'
+import img2 from '../../assets/Nfts/collection1/699.png';
+import img3 from '../../assets/Nfts/collection1/549.png';
+import img4 from '../../assets/Nfts/collection1/387.png';
+import img5 from '../../assets/Nfts/collection1/877.png'
 
 const Section = styled.section`
-min-height: 100vh;
+min-height: 50vh;
 width: 100vw;
 background-color: ${props => props.theme.text};
 display: flex;
@@ -26,18 +21,12 @@ overflow: hidden;
 &>*:first-child{
   animation-duration: 20s;
 
-  @media (max-width: 30em){
+  @media (max-width: 10em){
     animation-duration: 15s;
 
   }
 }
-&>*:last-child{
-  animation-duration: 15s;
-  @media (max-width: 30em){
-    animation-duration: 10s;
 
-  }
-}
 `
 const move = keyframes`
 0%{ transform: translateX(100%)   };
@@ -137,7 +126,6 @@ let pause = (e) => {
 const Showcase = () => {
 
   const Row1Ref = useRef(null);
-  const Row2Ref = useRef(null);
 
   return(
     <Section id="showcase">
@@ -147,17 +135,6 @@ const Showcase = () => {
       <NftItem img={img3}  number={456} passRef = {Row1Ref} />
       <NftItem img={img4}  number={666} passRef = {Row1Ref} />
       <NftItem img={img5}  number={452} passRef = {Row1Ref} />
-
-
-    </Row>
-    <Row direction="reverse" ref={Row2Ref}>
-    <NftItem img={img6}  number={888} passRef = {Row2Ref} />
-    <NftItem img={img7}  number={211} passRef = {Row2Ref} />
-    <NftItem img={img8}  number={455} passRef = {Row2Ref} />
-    <NftItem img={img9}  number={456} passRef = {Row2Ref} />
-    <NftItem img={img10}  number={865} passRef = {Row2Ref} />
-
-
     </Row>
     </Section>
   )
