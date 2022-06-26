@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import "@fontsource/akaya-telivigala"
 import "@fontsource/sora"
+import "@fontsource/mukta"
 
 
 
@@ -18,7 +19,7 @@ ${'' /*
 }
 
 body{
-    font-family: 'Sora', sans-serif;
+    font-family: 'sora', sans-serif;
     overflow-x: hidden;
 }
 

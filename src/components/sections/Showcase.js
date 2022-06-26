@@ -122,7 +122,7 @@ let pause = (e) => {
 
   return(
     <ImgContainer   onMouseOver={e => pause(e) }  onMouseOut={e => play(e) }  >
-      <img width={500} height={400}  src={img} alt="The Weirdos" />
+      <img width={500} height={400}  src={img} alt="The Moart's" />
       <Details>
         <div>
           <span>Moart's</span> <br />
