@@ -150,7 +150,7 @@ const Banner = () => {
         <Title>Join  <br /> Elrond Moart's  </Title>
         <BtnContainer>
 
-        <a href='https://discord.com/' aria-label='discord link' target="_blank" rel="noreferrer" >
+        <a href='https://discord.gg/eqYvkqe3Me' aria-label='discord link' target="_blank" rel="noreferrer" >
         <JoiNow>
             Join Now
         </JoiNow>
