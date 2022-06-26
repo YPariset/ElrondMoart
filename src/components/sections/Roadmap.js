@@ -134,7 +134,8 @@ const Box = styled.p`
 `;
 const SubTitle = styled.span`
   display: block;
-  font-size: ${(props) => props.theme.fontxl};
+  font-size: 23px;
+  text-transform: capitalize;
   color: ${(props) => props.theme.text};
 
   @media (max-width: 40em) {
