@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Typewriter from "typewriter-effect";
-import Button from './Button';
+
 
 const Title = styled.h2`
   font-size: ${(props) => props.theme.fontxxl};
@@ -72,6 +72,8 @@ const ButtonContainer = styled.div`
   }
 
 `
+
+
 const TypeWriterText = () => {
   return (
     <>
@@ -100,7 +102,6 @@ const TypeWriterText = () => {
     </Title>
     <SubTitle>Discover our collection below.</SubTitle>
     <ButtonContainer>
-    <Button text="Explore" link="#home" />
     </ButtonContainer>
     </>
   );

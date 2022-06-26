@@ -7,7 +7,7 @@ export const light = {
     bodyRgba : "255, 255, 255",
     textRgba:"32,32,32",
 
-    carouselColor: '#EEEDDE',
+    carouselColor: '#fff',
     itemsTeam: '#linear-gradient(to right, #ffd500, #9bf98c);',
 
     fontxs:'0.75em',
@@ -32,7 +32,7 @@ export const dark = {
     bodyRgba :"32,32,32" ,
     textRgba: "255, 255, 255",
 
-    carouselColor: '#EEEDDE',
+    carouselColor: '#fff',
     itemsTeam: '#linear-gradient(to right, #ffd500, #9bf98c);',
 
     fontxs:'0.75em',
