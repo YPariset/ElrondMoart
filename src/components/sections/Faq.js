@@ -98,28 +98,21 @@ useLayoutEffect(() => {
     <Container>
 
 <Box>
-  <Accordion ScrollTrigger={ScrollTrigger} title="WHERE CAN I VIEW MY NFTS?" >
-  Once minted or bought simply connect to your OpenSea account to view your NFTs.
+  <Accordion ScrollTrigger={ScrollTrigger} title="WHAT IS THE SUPPLY ?" >
+  Elrond Moart's is a collection of 6209 NFT that will be devided in several drop 
   </Accordion>
-  <Accordion ScrollTrigger={ScrollTrigger} title="WHAT IS THE METAVERSE?" >
-  A metaverse is a network of 3D virtual worlds focused on social connection. In futurism and science fiction, it is often described as a hypothetical iteration of the Internet as a single, universal virtual world that is facilitated by the use of virtual and augmented reality headsets.
-
+  <Accordion ScrollTrigger={ScrollTrigger} title="WHO ARE MOART'S TEAM ?" >
+  Moart’s team is a group of close friends who know each of them since long time now. They are 6 in the team, including the 2 founders, 2 designer, 1 dev, and the VitalNetwork founder.
   </Accordion>
-  <Accordion ScrollTrigger={ScrollTrigger} title="WHY DO WE NEED ROYALTIES?" >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim veritatis iusto officia. Exercitationem, ducimus reiciendis. Rem, maxime, similique neque minus aliquam dolore doloremque laboriosam, facilis quibusdam unde sint officia.
-  </Accordion>
+  <Accordion ScrollTrigger={ScrollTrigger} title="HOW MANY DROP ?" >
+  A total of 7 drops of 887 Moart's, 887 is related to the number of Moai on the Rapa nui island  </Accordion>
 </Box>
 <Box>
-<Accordion ScrollTrigger={ScrollTrigger} title="HOW CAN I USE MY NFT?" >
-You will be able to use your NFT as an avatar in the Metaverse and our future video game. Holding also means that you are part of an exclusive network of investors and entrepreneurs.
-  </Accordion>
-  <Accordion ScrollTrigger={ScrollTrigger} title="WHAT ARE MOART'S?
+<Accordion ScrollTrigger={ScrollTrigger} title="WHAT IS THE 1ST DROP PRICE ?" >
+First drop price is 0.6 egld for the Private Sale and 0.8 Egld for the Public Sale  </Accordion>
+  <Accordion ScrollTrigger={ScrollTrigger} title="WHAT ARE MOART'S USECASE?
 " >
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt consequatur quisquam maxime molestias dolores ipsum, exercitationem vel sint quidem aliquam modi quis impedit corporis unde inventore fugiat provident in.
-  </Accordion>
-  <Accordion ScrollTrigger={ScrollTrigger} title="WHAT IS THE FUSION PROCESS?
-" >
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim veritatis iusto officia. Exercitationem, ducimus reiciendis. Rem, maxime, similique neque minus aliquam dolore doloremque laboriosam, facilis quibusdam unde sint officia.
+Moart’s will bring several benefits, you will be able to stake them to earn passive Income, you’ll be able to buy a physical reproduction of your NFT. And more than that your NFT will be the proof that you participated in a charitable cause.
   </Accordion>
 </Box>
     </Container>
