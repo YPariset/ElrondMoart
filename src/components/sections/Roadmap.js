@@ -135,7 +135,7 @@ const Box = styled.p`
 `;
 const SubTitle = styled.span`
   display: block;
-  font-size: ${(props) => props.theme.fontxl};
+  font-size: 23px;
   text-transform: capitalize;
   color: ${(props) => props.theme.text};
 
@@ -220,7 +220,7 @@ const Roadmap = () => {
           <Item>&nbsp;</Item>
           <RoadMapItem
             addToRef={addToRefs}
-            title="Q2 - Network's and Moar't Drop"
+            title="Q2 - Network's & Moar't Drop"
             subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
           />
           <RoadMapItem
