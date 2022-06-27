@@ -3,17 +3,17 @@
   "name": "Moarts app",
   "icons": [
     {
-      "src": "presentation.JPG",
+      "src": "presentation.jpeg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "presentation.JPG",
+      "src": "presentation.jpeg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "presentation.JPG",
+      "src": "presentation.jpeg",
       "type": "image/png",
       "sizes": "512x512"
     }
