@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
 import styled from 'styled-components'
-import Button from './Button'
 import Logo from './Logo'
+import ButtonToolTip from './ButtonTooltip'
+
 
 const Section = styled.section`
 width: 100vw;
@@ -185,12 +186,12 @@ const scrollTo = (id) => {
           <MenuItem onClick={() => scrollTo('faq')}  >Faq</MenuItem>
           <MenuItem>
             <div className="mobile">
-            <Button text="Buy Moart's" link="https://vitalnetwork.io/launchpad" />
+            <ButtonToolTip text="Staking" />
             </div>
           </MenuItem>
         </Menu>
           <div className="desktop">
-          <Button text="Buy Moart's" link="https://vitalnetwork.io/launchpad" />
+          <ButtonToolTip text="Staking" />
           </div>
 
       </NavBar>

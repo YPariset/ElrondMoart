@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import Typewriter from "typewriter-effect";
+import Button from './Button'
+import ButtonToolTip from "./ButtonTooltip";
+
 
 
 const Title = styled.h2`
@@ -102,6 +105,8 @@ const TypeWriterText = () => {
     </Title>
     <SubTitle>Discover our collection below.</SubTitle>
     <ButtonContainer>
+      <Button text="Mint Live" link="https://vitalnetwork.io/launchpad" />
+      <ButtonToolTip text="Shop"></ButtonToolTip>
     </ButtonContainer>
     </>
   );
