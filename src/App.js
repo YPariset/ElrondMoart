@@ -12,13 +12,34 @@ import Team from "./components/sections/Team";
 import Footer from "./components/Footer";
 import Faq from "./components/sections/Faq";
 import ScrollToTop from "./components/ScrollToTop";
+import { ModalProvider } from 'styled-react-modal'
+import FancyModalButton from "./components/FancyModalButton";
+import styled from 'styled-components'
+
+
+const SpecialModalBackground = styled.div`
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  z-index: 30;
+  opacity: ${props => props.opacity};
+
+
+`
 
 function App() {
   return (
     <main>
       <GlobalStyles />
       <ThemeProvider theme={dark}>
+      <ModalProvider backgroundComponent={SpecialModalBackground}>
         {/* <Suspense fallback={<Loading />}> */}
+        <FancyModalButton />
           <Navigation />
           <Home />
           <About />
@@ -29,6 +50,7 @@ function App() {
           {/* <ScrollToTop scrollPosition={y}/> */}
           <ScrollToTop />{" "}
         {/* </Suspense> */}
+        </ModalProvider>
       </ThemeProvider>
     </main>
   );

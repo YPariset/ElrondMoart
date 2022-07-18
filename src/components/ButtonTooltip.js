@@ -8,7 +8,6 @@ background-color: ${props => props.theme.text};
 color: ${props => props.theme.body};
 outline: none;
 border: none;
-margin-left: 2rem;
 
 font-size: ${props => props.theme.fontsm};
 padding: 0.9rem 2.3rem;
