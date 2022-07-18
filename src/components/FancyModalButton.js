@@ -80,7 +80,7 @@ function FancyModalButton() {
         <ImgStyled src={img} alt="Event" width="300" height="300"></ImgStyled>
         </ImgContainer>
         <ButtonContainer>
-        <Button text="BUY NOW" link="https://medium.com/@elrondmoarts"></Button>
+        <Button text="BUY NOW" link="https://vitalnetwork.io/launchpad"></Button>
         </ButtonContainer>
       </StyledModal>
     </div>
