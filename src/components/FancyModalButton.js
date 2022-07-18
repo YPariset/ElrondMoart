@@ -3,18 +3,41 @@ import Modal from "styled-react-modal";
 import img from '../assets/BuyTwoGetThree.JPG'
 import styled from 'styled-components'
 import Close from "./Icons/Close";
+import Button from "./Button";
 
 
 const StyledModal = Modal.styled`
-  width: 20rem;
-  height: 20rem;
-  display: flex;
-  justify-content: right;
+  width: 28rem;
+  height: 28rem;
   opacity: ${(props) => props.opacity};
-  background-image: url(${img});
-  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  background-color: ${props => props.theme.text};
   transition : all 0.3s ease-in-out;`;
 
+  const ImgContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  align-item: center;`;
+
+  const CloseStyled = styled.a`
+  padding-right: 5px;
+  padding-top: 2px;
+  cursor: pointer;`;
+
+  const ImgStyled = styled.img`
+  border-radius: 30px`;
+
+  const CloseContainer = styled.div`
+  display: flex;
+  justify-content: right;`;
+
+  const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  `;
 
 
 function FancyModalButton() {
@@ -50,9 +73,15 @@ function FancyModalButton() {
         opacity={opacity}
         backgroundProps={{ opacity }}
       >
-        <div>
-        <button onClick={toggleModal}>✕</button>
-        </div>
+        <CloseContainer>
+        <CloseStyled onClick={toggleModal}>✕</CloseStyled>
+        </CloseContainer>
+        <ImgContainer>
+        <ImgStyled src={img} alt="Event" width="300" height="300"></ImgStyled>
+        </ImgContainer>
+        <ButtonContainer>
+        <Button text="BUY NOW" link="https://medium.com/@elrondmoarts"></Button>
+        </ButtonContainer>
       </StyledModal>
     </div>
   );
